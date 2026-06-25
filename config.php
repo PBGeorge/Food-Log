@@ -17,3 +17,5 @@ define('APP_TIMEZONE', 'Europe/Bucharest'); // your timezone
 
 // Force HTTPS. Your host has SSL, so leave this true.
 define('FORCE_HTTPS', true);
+
+// git integration test comment
