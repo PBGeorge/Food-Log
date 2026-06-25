@@ -1,0 +1,19 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp .gitattributes $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp bootstrap.php $DEPLOYPATH
+    - /bin/cp config.php $DEPLOYPATH
+    - /bin/cp export.php $DEPLOYPATH
+    - /bin/cp footer.php $DEPLOYPATH
+    - /bin/cp header.php $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp login.php $DEPLOYPATH
+    - /bin/cp logout.php $DEPLOYPATH
+    - /bin/cp meal.php $DEPLOYPATH
+    - /bin/cp setup.php $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+
